@@ -118,3 +118,36 @@ figcaption {
   font-size: 24px;
   font-weight: 900;
 }
+
+.container-two {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 60px 0px;
+  width: 100%;
+}
+
+.avis {
+  width: 60%;
+  text-align: justify;
+  color: #1f2937;
+}
+
+.avis p {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.avis h3 {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px 0px;
+  color: #f9faf8;
+  font-size: 18px;
+}
