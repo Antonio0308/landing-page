@@ -96,6 +96,7 @@ button {
 
 .container-image {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
