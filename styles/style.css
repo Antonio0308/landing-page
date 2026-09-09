@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Supprime le style par défaut des listes dans les navigateurs */
 ul {
   padding: 0;
 }
@@ -78,11 +79,7 @@ button {
   margin-top: 15px;
 }
 
-.container-one h2 {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-}
+/* Applique display: flex sur .container-one pour centrer le contenu horizontalement */
 
 .container-one {
   display: flex;
@@ -93,6 +90,14 @@ button {
   padding-top: 10px;
   padding-bottom: 80px;
 }
+
+.container-one h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+/* Organiser les images des incontournables de manière flexible en utilisant les propriétés de Flexbox */
 
 .container-image {
   display: flex;
